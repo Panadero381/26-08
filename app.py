@@ -317,4 +317,3 @@ elif pagina == "5️⃣ Probabilidad y estadística":
     ax2.set_xlabel(var_x); ax2.set_ylabel(var_y)
     ax2.set_title(f"Covarianza: {df[[var_x, var_y]].cov().iloc[0,1]:.2f} | Correlación: {df[[var_x, var_y]].corr().iloc[0,1]:.2f}")
     st.pyplot(fig2)
-
